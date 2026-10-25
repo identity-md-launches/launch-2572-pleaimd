@@ -1,0 +1,20 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "Pleaimd",
+    "name": "Pleaimd",
+    "symbol": "PLEA",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {"poolBps":2000,"initialMarketCapWei":"3000000000000000000000","remainderTo":"0xee2aaa315cf7ed169f93148d30d24af9318dbb66"},
+  "notes": "Pleaimd (PLEA) is a fixed-supply ERC-20 meme token for Uniswap v4, built by the swarm. Its no-argument constructor mints all 1,000,000,000 tokens with 18 decimals to msg.sender. Transfers use standard ERC-20 balances and allowances without transfer taxes. There are no administrative or further minting functions and no application contracts. pool.initialPrice records provenance only; the deployer derives the opening price from economics.initialMarketCapWei and the total supply."
+}
